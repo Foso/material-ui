@@ -77,7 +77,7 @@ function AppFooter(props) {
                   <Link
                     color="inherit"
                     variant="body2"
-                    href="https://github.com/mui-org/material-ui"
+                    href="https://github.com/Foso/material-ui"
                   >
                     GitHub
                   </Link>
@@ -163,7 +163,7 @@ function AppFooter(props) {
                 license: (
                   <Link
                     color="inherit"
-                    href="https://github.com/mui-org/material-ui/blob/master/LICENSE"
+                    href="https://github.com/Foso/material-ui/blob/master/LICENSE"
                   >
                     {t('license')}
                   </Link>

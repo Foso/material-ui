@@ -12,10 +12,10 @@
 - **给我们反馈** 。 告诉我们我们做得好还是可以改进的地方。 请投票（👍）您最想解决的问题。
 - **帮助新用户** 。 You can answer questions on [StackOverflow](https://stackoverflow.com/questions/tagged/material-ui).
 - **Make changes happen**. 
-  - 通过[创建问题](https://github.com/mui-org/material-ui/issues/new)来报告错误或缺少的功能 。
-  - Reviewing and commenting on existing [pull requests](https://github.com/mui-org/material-ui/pulls) and [issues](https://github.com/mui-org/material-ui/issues).
+  - 通过[创建问题](https://github.com/Foso/material-ui/issues/new)来报告错误或缺少的功能 。
+  - Reviewing and commenting on existing [pull requests](https://github.com/Foso/material-ui/pulls) and [issues](https://github.com/Foso/material-ui/issues).
   - Help [translate](https://translate.material-ui.com) the documentation.
-  - Fixing bugs, adding features, and [improving our documentation](https://github.com/mui-org/material-ui/tree/master/docs) by [submitting a pull request](https://github.com/mui-org/material-ui/pulls).
+  - Fixing bugs, adding features, and [improving our documentation](https://github.com/Foso/material-ui/tree/master/docs) by [submitting a pull request](https://github.com/Foso/material-ui/pulls).
 - **在[OpenCollective](https://opencollective.com/material-ui)**上资助我们。 如果您在商业项目中使用了Material-UI，并希望通过成为我们的赞助商</0 >来支持我们的持续发展，或者您一个业余项目或者爱好项目，并想成为我们的支持者， 您都可以通过OpenCollective实现。 筹集的所有资金都是透明管理的，赞助商在README和Material-UI主页上获得认可。
 
 ## 为什么我的组件在生产版本中没有正确地渲染？

@@ -17,7 +17,7 @@ Working on your first Pull Request? You can learn how from this free video serie
 
 [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 
-To help you get your feet wet and get you familiar with our contribution process, we have a list of [good first issues](https://github.com/mui-org/material-ui/issues?q=is:open+is:issue+label:"good+first+issue") that contain changes that have a relatively limited scope. This is a great place to get started.
+To help you get your feet wet and get you familiar with our contribution process, we have a list of [good first issues](https://github.com/Foso/material-ui/issues?q=is:open+is:issue+label:"good+first+issue") that contain changes that have a relatively limited scope. This is a great place to get started.
 
 If you decide to fix an issue, please be sure to check the comment thread in case somebody is already working on a fix. If nobody is working on it at the moment, please leave a comment stating that you have started to work on it so other people don’t accidentally duplicate your effort.
 
@@ -36,7 +36,7 @@ When in doubt, keep your Pull Requests small. To give a Pull Request the best ch
 ```sh
 git clone git@github.com:<yourname>/material-ui.git
 cd material-ui
-git remote add upstream git@github.com:mui-org/material-ui.git
+git remote add upstream git@github.com:Foso/material-ui.git
 ```
 
 3. Synchronize your local `master` branch with the upstream one:
@@ -64,7 +64,7 @@ git checkout -b my-topic-branch
 git push -u
 ```
 
-7. Go to [the repository](https://github.com/mui-org/material-ui) and make a Pull Request.
+7. Go to [the repository](https://github.com/Foso/material-ui) and make a Pull Request.
 
 The core team is monitoring for Pull Requests. We will review your Pull Request and either merge it, request changes to it, or close it with an explanation.
 
@@ -80,9 +80,9 @@ Make sure the following is true:
 - If a feature is being added:
   - If the result was already achievable with the core library, explain why this feature needs to be added to the core.
   - If this is a common use case, consider adding an example to the documentation.
-- When adding new features or modifying existing, please include tests to confirm the new behavior. You can read more about our test setup in our test [README](https://github.com/mui-org/material-ui/blob/master/test/README.md).
+- When adding new features or modifying existing, please include tests to confirm the new behavior. You can read more about our test setup in our test [README](https://github.com/Foso/material-ui/blob/master/test/README.md).
 - If props were added or prop types were changed, the TypeScript declarations were updated.
-- When submitting a new component, please add it to the [lab](https://github.com/mui-org/material-ui/tree/master/packages/material-ui-lab).
+- When submitting a new component, please add it to the [lab](https://github.com/Foso/material-ui/tree/master/packages/material-ui-lab).
 - The branch is not behind its target.
 
 Because we will only merge a Pull Request for which all tests pass. The following items need is true. We will provide assistance if not:
@@ -148,7 +148,7 @@ Typechecks the repository. The log of the failed build should list all issues.
 Renders a preview of the docs with your changes if it succeeds. Otherwise `yarn docs:build`
 or `yarn docs:export` usually fail locally as well.
 
-##### mui-org.material-ui (Azure Pipelines)
+##### Foso.material-ui (Azure Pipelines)
 
 This task is mostly responsible for monitoring the bundle size. It will only report
 the size if the change exceeds a certain threshold. If it fails there's usually
@@ -254,7 +254,7 @@ If you are no familiar with that language, write the demo in JavaScript, a core 
 
 #### 4. You are done 🎉!
 
-In case you missed something, [we have a real example that can be used as a summary report](https://github.com/mui-org/material-ui/pull/19582/files).
+In case you missed something, [we have a real example that can be used as a summary report](https://github.com/Foso/material-ui/pull/19582/files).
 
 ## Translations
 
@@ -269,4 +269,4 @@ To get a sense of where Material-UI is heading, or for ideas on where you could 
 
 ## License
 
-By contributing your code to the mui-org/material-ui GitHub repository, you agree to license your contribution under the MIT license.
+By contributing your code to the Foso/material-ui GitHub repository, you agree to license your contribution under the MIT license.

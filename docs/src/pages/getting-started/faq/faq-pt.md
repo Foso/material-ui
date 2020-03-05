@@ -12,10 +12,10 @@ Existem muitas maneiras de apoiar o Material-UI:
 - **Give us feedback**. Tell us what we're doing well or where we can improve. Please upvote (👍) the issues that you are the most interested in seeing solved.
 - **Help new users**. You can answer questions on [StackOverflow](https://stackoverflow.com/questions/tagged/material-ui).
 - **Make changes happen**. 
-  - Report bugs or missing features by [creating an issue](https://github.com/mui-org/material-ui/issues/new).
-  - Reviewing and commenting on existing [pull requests](https://github.com/mui-org/material-ui/pulls) and [issues](https://github.com/mui-org/material-ui/issues).
+  - Report bugs or missing features by [creating an issue](https://github.com/Foso/material-ui/issues/new).
+  - Reviewing and commenting on existing [pull requests](https://github.com/Foso/material-ui/pulls) and [issues](https://github.com/Foso/material-ui/issues).
   - Help [translate](https://translate.material-ui.com) the documentation.
-  - Fixing bugs, adding features, and [improving our documentation](https://github.com/mui-org/material-ui/tree/master/docs) by [submitting a pull request](https://github.com/mui-org/material-ui/pulls).
+  - Fixing bugs, adding features, and [improving our documentation](https://github.com/Foso/material-ui/tree/master/docs) by [submitting a pull request](https://github.com/Foso/material-ui/pulls).
 - **Support us financially on [OpenCollective](https://opencollective.com/material-ui)**. If you use Material-UI in a commercial project and would like to support its continued development by becoming a Sponsor, or in a side or hobby project and would like to become a Backer, you can do so through OpenCollective. All funds donated are managed transparently, and Sponsors receive recognition in the README and on the Material-UI home page.
 
 ## Por que meus componentes não estão renderizando corretamente em compilações de produção?

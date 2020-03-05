@@ -10,12 +10,12 @@ Estou feliz que você tenha perguntado! A resposta é não. Os principais concei
 
 ### O que motivou uma mudança tão grande?
 
-Material-UI foi iniciado [4 anos atrás](https://github.com/mui-org/material-ui/commit/28b768913b75752ecf9b6bb32766e27c241dbc46). O ecossistema evoluiu muito desde então, também aprendemos muito. [@nathanmarks](https://github.com/nathanmarks/) iniciou uma tarefa ambiciosa, reconstruindo o Material-UI do **zero**, aproveitando esse conhecimento para resolver problemas de longa data. Para citar algumas das principais mudanças:
+Material-UI foi iniciado [4 anos atrás](https://github.com/Foso/material-ui/commit/28b768913b75752ecf9b6bb32766e27c241dbc46). O ecossistema evoluiu muito desde então, também aprendemos muito. [@nathanmarks](https://github.com/nathanmarks/) iniciou uma tarefa ambiciosa, reconstruindo o Material-UI do **zero**, aproveitando esse conhecimento para resolver problemas de longa data. Para citar algumas das principais mudanças:
 
 - Nova solução de estilo usando CSS-in-JS (melhor poder de [customização](/customization/components/), melhor desempenho)
 - Novo tratamento de tema (aninhamento, auto-suporte, etc.)
 - Documentação rápida e brilhante graças a [Next.js](https://github.com/zeit/next.js)
-- Melhor [cobertura de teste](/guides/testing/) (99%+, executado em todos os principais navegadores, [testes de regressão visual](https://www.argos-ci.com/mui-org/material-ui))
+- Melhor [cobertura de teste](/guides/testing/) (99%+, executado em todos os principais navegadores, [testes de regressão visual](https://www.argos-ci.com/Foso/material-ui))
 - Suporte completo [a renderização do lado do servidor](/guides/server-rendering/)
 - Vasta gama de [navegadores suportados](/getting-started/supported-platforms/)
 
@@ -43,7 +43,7 @@ Material-UI foi iniciado [4 anos atrás](https://github.com/mui-org/material-ui/
   import Button from '@material-ui/core/Button'; // v1.x
   ```
 
-2. Execute [o auxiliar de migração](https://github.com/mui-org/material-ui/tree/master/packages/material-ui-codemod) em seu projeto.
+2. Execute [o auxiliar de migração](https://github.com/Foso/material-ui/tree/master/packages/material-ui-codemod) em seu projeto.
 3. `MuiThemeProvider` é opcional para v1.x., mas se você tem um tema customizado, você é livre para usar as versões v0.x e v1.x do componente, ao mesmo tempo, como neste exemplo:
 
   ```jsx
@@ -81,11 +81,11 @@ Material-UI foi iniciado [4 anos atrás](https://github.com/mui-org/material-ui/
 Material-UI, não fornece uma API de alto nível para resolver este problema.
 Recomendamos que você explore [as soluções que a comunidade construiu](/components/autocomplete/).
 
-No futuro, procuraremos fornecer um componente para resolver as formas de uso mais simples: [#9997](https://github.com/mui-org/material-ui/issues/9997).
+No futuro, procuraremos fornecer um componente para resolver as formas de uso mais simples: [#9997](https://github.com/Foso/material-ui/issues/9997).
 
 ### Svg Icon
 
-Execute [o auxiliar de migração](https://github.com/mui-org/material-ui/tree/master/packages/material-ui-codemod) em seu projeto.
+Execute [o auxiliar de migração](https://github.com/Foso/material-ui/tree/master/packages/material-ui-codemod) em seu projeto.
 
 Isto irá aplicar a seguinte mudança:
 
@@ -187,4 +187,4 @@ Caminho de atualização do RaisedButton:
 
 ### Continua…
 
-Você migrou sua aplicação com sucesso e deseja ajudar a comunidade? There is an open issue in order to finish this migration guide [#7195](https://github.com/mui-org/material-ui/issues/7195). Qualquer pull request é bem-vindo 😊.
+Você migrou sua aplicação com sucesso e deseja ajudar a comunidade? There is an open issue in order to finish this migration guide [#7195](https://github.com/Foso/material-ui/issues/7195). Qualquer pull request é bem-vindo 😊.

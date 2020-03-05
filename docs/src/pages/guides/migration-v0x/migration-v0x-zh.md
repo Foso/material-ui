@@ -10,12 +10,12 @@
 
 ### 到底是什么带来了如此巨大的改变呢？
 
-Material-UI 这个项目是从[4年前](https://github.com/mui-org/material-ui/commit/28b768913b75752ecf9b6bb32766e27c241dbc46)开始的。 在此期间，整个个生态系统发展了很多，我们也学到了很多东西。 [@nathanmarks](https://github.com/nathanmarks/) 启动了一项雄心勃勃的任务，将 Material-UI **重新启动**，并利用我们学到的知识，来解决一些长期存在的问题。 譬如这些主要的变化：
+Material-UI 这个项目是从[4年前](https://github.com/Foso/material-ui/commit/28b768913b75752ecf9b6bb32766e27c241dbc46)开始的。 在此期间，整个个生态系统发展了很多，我们也学到了很多东西。 [@nathanmarks](https://github.com/nathanmarks/) 启动了一项雄心勃勃的任务，将 Material-UI **重新启动**，并利用我们学到的知识，来解决一些长期存在的问题。 譬如这些主要的变化：
 
 - 我们采用 CSS-in-JS 这个新的样式方案（更好的[自定义](/customization/components/)的能力和整体性能）
 - 新的 主题处理 （有嵌套，自主支撑等。）
 - 感谢 [Next.js](https://github.com/zeit/next.js) 超快地创建文档
-- 更容易检测 [测试覆盖率](/guides/testing/) （99％以上，在所有主流浏览器上运行， [视觉回归测试](https://www.argos-ci.com/mui-org/material-ui)）
+- 更容易检测 [测试覆盖率](/guides/testing/) （99％以上，在所有主流浏览器上运行， [视觉回归测试](https://www.argos-ci.com/Foso/material-ui)）
 - 完全[服务器端渲染](/guides/server-rendering/)支持
 - 大范围地[支持的浏览器](/getting-started/supported-platforms/)
 
@@ -43,7 +43,7 @@ Material-UI 这个项目是从[4年前](https://github.com/mui-org/material-ui/c
   import Button from '@material-ui/core/Button'; // v1.x
   ```
 
-2. Run [the migration helper](https://github.com/mui-org/material-ui/tree/master/packages/material-ui-codemod) on your project.
+2. Run [the migration helper](https://github.com/Foso/material-ui/tree/master/packages/material-ui-codemod) on your project.
 3。 `MuiThemeProvider` is optional for v1.x., but if you have a custom theme, you are free to use v0.x and v1.x versions of the component at the same time, like this:
 
   ```jsx
@@ -81,11 +81,11 @@ Material-UI 这个项目是从[4年前](https://github.com/mui-org/material-ui/c
 Material-UI doesn't provide a high-level API for solving this problem.
 You're encouraged you to explore [the solutions the React community has built](/components/autocomplete/).
 
-In the future, we will look into providing a simple component to solve the simple use cases: [#9997](https://github.com/mui-org/material-ui/issues/9997).
+In the future, we will look into providing a simple component to solve the simple use cases: [#9997](https://github.com/Foso/material-ui/issues/9997).
 
 ### Svg Icon
 
-Run [the migration helper](https://github.com/mui-org/material-ui/tree/master/packages/material-ui-codemod) on your project.
+Run [the migration helper](https://github.com/Foso/material-ui/tree/master/packages/material-ui-codemod) on your project.
 
 This will apply a change such as the following:
 
@@ -187,4 +187,4 @@ This will apply a change such as the following:
 
 ### 未完待续...
 
-您是否已成功迁移您的应用，并助社区一臂之力？ There is an open issue in order to finish this migration guide [#7195](https://github.com/mui-org/material-ui/issues/7195). Any pull request is welcomed 😊.
+您是否已成功迁移您的应用，并助社区一臂之力？ There is an open issue in order to finish this migration guide [#7195](https://github.com/Foso/material-ui/issues/7195). Any pull request is welcomed 😊.

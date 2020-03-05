@@ -12,7 +12,7 @@ components: TextField
 
 ## @material-ui/pickers
 
-![Stars](https://img.shields.io/github/stars/mui-org/material-ui-pickers.svg?style=social&label=Stars) ![npmダウンロード](https://img.shields.io/npm/dm/@material-ui/pickers.svg)
+![Stars](https://img.shields.io/github/stars/Foso/material-ui-pickers.svg?style=social&label=Stars) ![npmダウンロード](https://img.shields.io/npm/dm/@material-ui/pickers.svg)
 
 [@ material-ui / pickers](https://material-ui-pickers.dev/) は、日付ピッカーおよび時間ピッカーコントロールを提供します。
 

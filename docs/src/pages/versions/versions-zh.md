@@ -46,7 +46,7 @@ Material-UI遵循[语义化版本2.0.0](https://semver.org/)。 Material-UI 的�
 | 2020第三季度 | v5.0.0 | ⏳   |
 
 
-您可以参考[里程碑](https://github.com/mui-org/material-ui/milestones)来获得更详细的概述。
+您可以参考[里程碑](https://github.com/Foso/material-ui/milestones)来获得更详细的概述。
 
 > ⚠️**免责声明** ：我们在动态的环境中运作，情况随时可能发生变化。 提供的信息旨在概述总体框架方向， 仅供参考。 我们可能会根据我们的交付能力来随时决定增加或删除新的项目来确保我们的质量标准。 Material-UI的任何功能的开发，发布和时间安排均由Material-UI自行决定。 指导方针不代表在任何时间交付的承诺和义务。
 

@@ -169,7 +169,7 @@ describe('<Modal />', () => {
       assert.strictEqual(onBackdropClick.callCount, 0);
     });
 
-    // Test case for https://github.com/mui-org/material-ui/issues/12831
+    // Test case for https://github.com/Foso/material-ui/issues/12831
     it('should unmount the children when starting open and closing immediately', () => {
       function TestCase() {
         const [open, setOpen] = React.useState(true);
@@ -359,7 +359,7 @@ describe('<Modal />', () => {
       expect(modalNode).not.to.be.ariaHidden;
     });
 
-    // Test case for https://github.com/mui-org/material-ui/issues/15180
+    // Test case for https://github.com/Foso/material-ui/issues/15180
     it('should remove the transition children in the DOM when closed whilst transition status is entering', () => {
       const children = <p>Hello World</p>;
 

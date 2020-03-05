@@ -55,7 +55,7 @@ yarn add @material-ui/icons
 - 一个用于开发: https://unpkg.com/@material-ui/core@latest/umd/material-ui.development.js
 - 一个用于生产: https://unpkg.com/@material-ui/core@latest/umd/material-ui.production.min.js
 
-您可以按照[此CDN示例](https://github.com/mui-org/material-ui/tree/master/examples/cdn)快速开始。
+您可以按照[此CDN示例](https://github.com/Foso/material-ui/tree/master/examples/cdn)快速开始。
 
 ⚠️在**生产环境**使用这种方式是**不推荐**的，因为客户端必须下载整个库，而不管实际上只使用哪些组件，这样的话会影响性能和带宽利用率。
 

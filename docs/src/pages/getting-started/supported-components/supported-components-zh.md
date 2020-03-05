@@ -4,7 +4,7 @@
 
 While we strive to follow the guidelines where practical (applying common sense where guidelines contradict - a more common occurrence than one might expect), we do not expect to support every component, nor every feature of every component, but rather to provide the building blocks to allow developers to create compelling user interfaces and experiences.
 
-如果您希望加对一个组件或一个未高亮显示的功能加以支持, 请搜索相关的 [ GitHub 问题 ](https://github.com/mui-org/material-ui/issues), 或创建一个新的问题来讨论该方法, 然后再提交pull request。
+如果您希望加对一个组件或一个未高亮显示的功能加以支持, 请搜索相关的 [ GitHub 问题 ](https://github.com/Foso/material-ui/issues), 或创建一个新的问题来讨论该方法, 然后再提交pull request。
 
 - App bars 
   - **[Top](https://material.io/design/components/app-bars-top.html) ✓**

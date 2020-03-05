@@ -144,7 +144,7 @@ export default function HomePage() {
           <div className={classes.social}>
             <a
               className="github-button"
-              href="https://github.com/mui-org/material-ui"
+              href="https://github.com/Foso/material-ui"
               data-icon="octicon-star"
               data-show-count="true"
             >
@@ -181,7 +181,7 @@ export default function HomePage() {
   "logo": "https://material-ui.com/static/logo.png",
   "sameAs": [
     "https://twitter.com/materialUI",
-    "https://github.com/mui-org/material-ui",
+    "https://github.com/Foso/material-ui",
     "https://opencollective.com/material-ui"
   ]
 }

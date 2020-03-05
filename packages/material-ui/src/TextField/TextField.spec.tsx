@@ -2,7 +2,7 @@ import * as React from 'react';
 import TextField from '@material-ui/core/TextField';
 
 {
-  // https://github.com/mui-org/material-ui/issues/12999
+  // https://github.com/Foso/material-ui/issues/12999
   const defaulted = (
     <TextField InputProps={{ classes: { inputTypeSearch: 'search-input', input: 'input' } }} />
   );
@@ -38,7 +38,7 @@ import TextField from '@material-ui/core/TextField';
   );
 }
 
-// https://github.com/mui-org/material-ui/issues/17369#issuecomment-529622304
+// https://github.com/Foso/material-ui/issues/17369#issuecomment-529622304
 function FocusHandlerTest() {
   const inputHandler = React.useCallback((event: React.FocusEvent<HTMLInputElement>) => {}, []);
   // Probably a decent tradeoff. React.EventHandler being bivariant does allow unsound

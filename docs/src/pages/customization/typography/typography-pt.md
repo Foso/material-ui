@@ -158,7 +158,7 @@ theme = responsiveFontSizes(theme);
 
 ### Tamanhos da fonte fluido
 
-To be done: [#15251](https://github.com/mui-org/material-ui/issues/15251).
+To be done: [#15251](https://github.com/Foso/material-ui/issues/15251).
 
 ## Variantes
 

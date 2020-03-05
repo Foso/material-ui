@@ -158,7 +158,7 @@ describe('<Popper />', () => {
 
   describe('prop: keepMounted', () => {
     describe('by default', () => {
-      // Test case for https://github.com/mui-org/material-ui/issues/15180
+      // Test case for https://github.com/Foso/material-ui/issues/15180
       it('should remove the transition children in the DOM when closed whilst transition status is entering', () => {
         const children = <p>Hello World</p>;
 

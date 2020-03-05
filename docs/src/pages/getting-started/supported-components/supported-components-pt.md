@@ -4,7 +4,7 @@
 
 While we strive to follow the guidelines where practical (applying common sense where guidelines contradict - a more common occurrence than one might expect), we do not expect to support every component, nor every feature of every component, but rather to provide the building blocks to allow developers to create compelling user interfaces and experiences.
 
-Se você deseja adicionar suporte a um componente ou recurso não destacado aqui, pesquise o problema relevante no [GitHub](https://github.com/mui-org/material-ui/issues) ou crie um novo para discutir a abordagem antes de enviar um pull request.
+Se você deseja adicionar suporte a um componente ou recurso não destacado aqui, pesquise o problema relevante no [GitHub](https://github.com/Foso/material-ui/issues) ou crie um novo para discutir a abordagem antes de enviar um pull request.
 
 - Barra de Aplicativos 
   - **[Superior](https://material.io/design/components/app-bars-top.html) ✓**

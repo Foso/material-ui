@@ -3010,7 +3010,7 @@ Here are some highlights ✨:
 
 Big thanks to the 11 contributors who made this release possible!
 
-This release fixes an important regression with TypeScript: https://github.com/mui-org/material-ui/issues/15076.
+This release fixes an important regression with TypeScript: https://github.com/Foso/material-ui/issues/15076.
 
 ### `@material-ui/core@v3.9.3`
 
@@ -3531,7 +3531,7 @@ This is our first unstable release toward Material-UI v4.0.0. We try to release 
 This gives us the opportunity to remove deprecated APIs, upgrade our peer dependencies and more importantly, keep up with the direction the community is taking.
 
 - You can find the documentation following this URL: https://material-ui.com/.
-- You can track our progress following this URL: https://github.com/mui-org/material-ui/milestone/25.
+- You can track our progress following this URL: https://github.com/Foso/material-ui/milestone/25.
 
 A big thanks to the 28 contributors who made this release possible!
 
@@ -5173,7 +5173,7 @@ It's also a good opportunity to upgrade to the stable release of Babel 7.
 Big thanks to the 27 contributors who made this release possible!
 
 We are upgrading the major version of `@material-ui/core` to match the version of `@material-ui/icons`.
-The next major release is planned for [Q1, 2019](https://github.com/mui-org/material-ui/milestone/25).
+The next major release is planned for [Q1, 2019](https://github.com/Foso/material-ui/milestone/25).
 
 ### Breaking change
 
@@ -6150,7 +6150,7 @@ import {
 
 #### Upgrade path
 
-We provide a codemod to automate the migration: https://github.com/mui-org/material-ui/tree/master/packages/material-ui-codemod#import-path. I have used it to upgrade all the demos in the documentation :).
+We provide a codemod to automate the migration: https://github.com/Foso/material-ui/tree/master/packages/material-ui-codemod#import-path. I have used it to upgrade all the demos in the documentation :).
 
 - [core] Require React 16.3.0 or greater (#11347, #11361) @oliviertassinari
 - [Grid] Remove the hidden property (#11348) @oliviertassinari
@@ -6712,7 +6712,7 @@ For consistency with the [removeEventListener Web API](https://developer.mozilla
 
 - [InputLabel] Rename FormControlClasses property (#10796) @oliviertassinari
 
-I have made a mistake in [#8108](https://github.com/mui-org/material-ui/pull/8108). The property isn't applied on a `FormControl` but on a `FormLabel` component.
+I have made a mistake in [#8108](https://github.com/Foso/material-ui/pull/8108). The property isn't applied on a `FormControl` but on a `FormLabel` component.
 
 ```diff
 -<InputLabel FormControlClasses={classes} />
@@ -8136,7 +8136,7 @@ Here are some highlights ✨:
 @andrzejbk has been implementing the `ExpansionPanel` component with the help of the community. Big thanks to him!
 - Support TypeScript@2.6 (#9124) @pelotom
 - Support Flow@0.57.x (#8983) @rsolomon, @rosskevin
-- A new organization: `mui-org` @hai-cea
+- A new organization: `Foso` @hai-cea
 - And many more bug fixes and documentation improvements.
 
 ### Breaking change
@@ -8195,7 +8195,7 @@ It was a breaking change and not needed.
 - [docs] Fix broken link to the API#spread (#9219) @oliviertassinari
 - [Guide] Add Interoperability guide (#9217) @FjVillar
 - [docs] Add a styled-components section (#9225) @oliviertassinari
-- [examples] rename organization to mui-org (#9273) @stormasm
+- [examples] rename organization to Foso (#9273) @stormasm
 - [docs] Fix typo (#9288) @paulzmuda
 
 #### Core
@@ -8445,7 +8445,7 @@ Big thanks to the 14 contributors who made this release possible.
 Here are some highlights ✨:
 
 - New InputAdornment component (#8504).
-- New [Frequently asked questions](https://github.com/mui-org/material-ui/blob/4df547d56448cedf70977d6e2463b38eaf64d1c7/docs/src/pages/getting-started/frequently-asked-questions.md) documentation section
+- New [Frequently asked questions](https://github.com/Foso/material-ui/blob/4df547d56448cedf70977d6e2463b38eaf64d1c7/docs/src/pages/getting-started/frequently-asked-questions.md) documentation section
 - We have saved 1 KB gzip by removing our internal react-transition-group fork (#8785).
 - We have made one step further in order to upgrade all our development dependencies to react@16 (#8804).
 
@@ -9921,7 +9921,7 @@ Big thanks to the 11 contributors who are pushing the `next` branch forward.
 
 We are continuing investing in the documentation and the test suite.
 
-Visual regression tests are now sent to [argos-ci](https://www.argos-ci.com/mui-org/material-ui).
+Visual regression tests are now sent to [argos-ci](https://www.argos-ci.com/Foso/material-ui).
 Thanks @agamrafaeli for increasing the test coverage of 1% since the last release (95.23%).
 Thanks @mbrookes for fixing the inconsistency of the API and improving the API.
 
@@ -10244,12 +10244,12 @@ We are releasing sooner than we use to for this **special day** :christmas_tree:
 
 2016 has been an exceptional year for Material-UI.
 - We went from 40k to 180k [downloads](https://npm-stat.com/charts.html?package=material-ui&from=2014-12-24&to=2016-12-25) a month. :package:
-- We went from 12k to 22k [stars](http://www.timqian.com/star-history/#mui-org/material-ui). :star:
+- We went from 12k to 22k [stars](http://www.timqian.com/star-history/#Foso/material-ui). :star:
 
 That wouldn't have been possible without this awesome community.
 **Thank you!**
 
-But this's just the beginning, some [exciting stuff](https://github.com/mui-org/material-ui/blob/master/ROADMAP.md) is coming in 2017 :sparkles:.
+But this's just the beginning, some [exciting stuff](https://github.com/Foso/material-ui/blob/master/ROADMAP.md) is coming in 2017 :sparkles:.
 You can preview a **very early** version of the `next` branch following [this link](https://material-ui-next.com).
 
 #### Component Fixes / Enhancements
@@ -10328,7 +10328,7 @@ This is another release improving the stability of `v0.16.x`.
 ## 0.16.3
 ###### *Nov 17, 2016*
 
-This release is intended to solve an [issue](https://github.com/mui-org/material-ui/issues/5573) with `react-tap-event-plugin` following the release of React `v15.4.0`.
+This release is intended to solve an [issue](https://github.com/Foso/material-ui/issues/5573) with `react-tap-event-plugin` following the release of React `v15.4.0`.
 
 #### Component Fixes / Enhancements
 
@@ -10437,7 +10437,7 @@ We are switching in goal so we can release changes more **often**.
 Regarding going forward, this is likely to be the last `minor` release using the **inline-style** approach.
 We are migrating all the components to a **CSS-in-JS** approach on the `next` branch.
 
-For more details, you can have a look a the [next milestone](https://github.com/mui-org/material-ui/milestone/14) as well as the [next project](https://github.com/mui-org/material-ui/projects/1)
+For more details, you can have a look a the [next milestone](https://github.com/Foso/material-ui/milestone/14) as well as the [next project](https://github.com/Foso/material-ui/projects/1)
 
 :warning: New features based on the `master` branch (inline-style) have low priority and will most likely not be reviewed nor merged.
 
@@ -10825,7 +10825,7 @@ documentation page.
 
 Have a ton of imports? almost had a heart attack? worry not, we also made a tool
 to ease your pain. checkout the
-[readme](https://github.com/mui-org/material-ui/tree/master/packages/material-ui-codemod/README.md).
+[readme](https://github.com/Foso/material-ui/tree/master/packages/material-ui-codemod/README.md).
 
 ##### Breaking Changes
 - [Core] Improve import path for published lib (#3921)
@@ -11015,7 +11015,7 @@ import MUI from 'material-ui'; // no changes here :D
 This release includes huge improvements to the implementation
 of components and utility modules. The most important improvement
 is the removal of mixins from the library, thanks to the
-[great efforts](https://github.com/mui-org/material-ui/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+author%3Anewoga+style-propable)
+[great efforts](https://github.com/Foso/material-ui/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+author%3Anewoga+style-propable)
 of @newoga :+1:
 
 There are also improvements to the unit testing infrastructure. We own this
@@ -11909,7 +11909,7 @@ We've cleaned up some of our click/tap events. (#771) Upgrade should be straight
     component specific. In addition to the benefits mentioned in the
     presentation, inline styles allow Material-UI to become CSS preprocessor
     agnostic and make Themeing much more dynamic and simple.
-    [Read our CSS in JS discussion](https://github.com/mui-org/material-ui/issues/30)
+    [Read our CSS in JS discussion](https://github.com/Foso/material-ui/issues/30)
   - Upgrade path:
     - *If you are overriding component CSS classes:* Redefine your overrides as
       an object following [React's inline styles format](https://facebook.github.io/react/tips/inline-styles.html),
@@ -11918,10 +11918,10 @@ We've cleaned up some of our click/tap events. (#771) Upgrade should be straight
       overriding a nested element of the component, check the component's
       documentation and see if there is a style prop available for that nested
       element. If a style prop does not exist for the component's nested element
-      that you are trying to override, [submit an issue](https://github.com/mui-org/material-ui/issues/new)
+      that you are trying to override, [submit an issue](https://github.com/Foso/material-ui/issues/new)
       requesting to have it added.
     - *If you are using any of Material-UI's Less files:* These files have been
-      refactored into their [own javascript files](https://github.com/mui-org/material-ui/tree/css-in-js/src/styles)
+      refactored into their [own javascript files](https://github.com/Foso/material-ui/tree/css-in-js/src/styles)
       and can be accessed like so `var FILENAME = require('material-ui').Styles.FILENAME;`.
       Material-UI has moved away from being a CSS Framework to being simply a
       set of React components.
@@ -12078,7 +12078,7 @@ We've cleaned up some of our click/tap events. (#771) Upgrade should be straight
       For FontIcon, create a custom font file and include it in your project and just pass the Icon
       className into the FontIcon component. For SvgIcon, create a new React component that represents
       that particular icon. This will allow you to package your icons inside your js files. Examples
-      can be found [here](https://github.com/mui-org/material-ui/tree/master/src/js/svg-icons).
+      can be found [here](https://github.com/Foso/material-ui/tree/master/src/js/svg-icons).
     - Additionally, all components that had an icon prop now take an iconClassName prop instead. These
       include FloatingActionButton, IconButton, Menu, MenuItem, and DropDownIcon.
 

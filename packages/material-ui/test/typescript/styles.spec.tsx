@@ -206,7 +206,7 @@ declare const themed: boolean;
   const Foo = withStyles({}, { withTheme: true })(
     class extends React.Component<WithTheme> {
       hasRef() {
-        // innerRef does not exists, originally caused https://github.com/mui-org/material-ui/issues/14095
+        // innerRef does not exists, originally caused https://github.com/Foso/material-ui/issues/14095
         return Boolean(this.props.innerRef); // $ExpectError
       }
 
@@ -256,7 +256,7 @@ withStyles(theme =>
 
 {
   // allow top level media queries
-  // https://github.com/mui-org/material-ui/issues/12277
+  // https://github.com/Foso/material-ui/issues/12277
 
   // typescript thinks `content` is the CSS property not a classname
   const ambiguousStyles = createStyles({
@@ -331,7 +331,7 @@ withStyles(theme =>
 }
 
 {
-  // https://github.com/mui-org/material-ui/issues/11109
+  // https://github.com/Foso/material-ui/issues/11109
   // The real test here is with "strictFunctionTypes": false,
   // but we don't have a way currently to test under varying
   // TypeScript configurations.
@@ -367,7 +367,7 @@ withStyles(theme =>
 }
 
 {
-  // https://github.com/mui-org/material-ui/issues/11191
+  // https://github.com/Foso/material-ui/issues/11191
   const styles = (theme: Theme) =>
     createStyles({
       main: {},
@@ -389,12 +389,12 @@ withStyles(theme =>
 }
 
 {
-  // https://github.com/mui-org/material-ui/issues/11312
+  // https://github.com/Foso/material-ui/issues/11312
   withStyles(styles, { name: 'MyComponent', index: 0 })(() => <div />);
 }
 
 {
-  // https://github.com/mui-org/material-ui/issues/11164
+  // https://github.com/Foso/material-ui/issues/11164
   const style: StyleRulesCallback<Theme, any, any> = theme => ({
     text: theme.typography.body2,
   });
@@ -429,7 +429,7 @@ withStyles(theme =>
 }
 
 {
-  // https://github.com/mui-org/material-ui/issues/12670
+  // https://github.com/Foso/material-ui/issues/12670
   interface Props {
     nonDefaulted: string;
     defaulted: number;
@@ -478,7 +478,7 @@ withStyles(theme =>
 }
 
 {
-  // https://github.com/mui-org/material-ui/pull/15546
+  // https://github.com/Foso/material-ui/pull/15546
   // Update type definition to let CSS properties be functions
   interface testProps {
     foo: boolean;
@@ -565,7 +565,7 @@ withStyles(theme =>
 
 {
   // Make theme property on styled components optional
-  // https://github.com/mui-org/material-ui/issues/16379#issuecomment-507209971
+  // https://github.com/Foso/material-ui/issues/16379#issuecomment-507209971
   const style = (props: { value: number }) => ({});
   const styleWithTheme = (props: { value: number; theme: Theme }) => ({});
   const Component: React.FC = () => null;
@@ -606,7 +606,7 @@ withStyles(theme =>
 
 {
   // Make sure theme and props have the correct types
-  // https://github.com/mui-org/material-ui/issues/16351
+  // https://github.com/Foso/material-ui/issues/16351
 
   // Theme has default type
   styled(Button)(({ theme }) => {

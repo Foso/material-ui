@@ -325,7 +325,7 @@ function AppFrame(props) {
               edge="end"
               component="a"
               color="inherit"
-              href="https://github.com/mui-org/material-ui"
+              href="https://github.com/Foso/material-ui"
               aria-label={t('github')}
               data-ga-event-category="AppBar"
               data-ga-event-action="github"

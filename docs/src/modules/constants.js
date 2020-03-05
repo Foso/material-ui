@@ -52,7 +52,7 @@ const LANGUAGES_LABEL = [
   },
 ];
 
-const SOURCE_CODE_ROOT_URL = 'https://github.com/mui-org/material-ui/blob/master';
+const SOURCE_CODE_ROOT_URL = 'https://github.com/Foso/material-ui/blob/master';
 
 module.exports = {
   CODE_VARIANTS,

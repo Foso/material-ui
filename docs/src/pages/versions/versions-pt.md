@@ -46,7 +46,7 @@ Em geral, você pode esperar o seguinte ciclo de lançamento:
 | Terceiro trimestre de 2020 | v5.0.0 | ⏳        |
 
 
-Você pode seguir os [ milestones ](https://github.com/mui-org/material-ui/milestones) para uma visão geral mais detalhada.
+Você pode seguir os [ milestones ](https://github.com/Foso/material-ui/milestones) para uma visão geral mais detalhada.
 
 > ⚠️ ** Isenção de responsabilidade **: Operamos em um ambiente dinâmico e as coisas estão sujeitas a alterações. The information provided is intended to outline the general framework direction. It's intended for informational purposes only. We may decide to add/remove new items at any time depending on our capability to deliver while meeting our quality standards. The development, releases and timing of any features or functionality of Material-UI remains at the sole discretion of Material-UI. The roadmap does not represent a commitment, obligation or promise to deliver at any time.
 

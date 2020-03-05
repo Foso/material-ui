@@ -4,7 +4,7 @@
 
 While we strive to follow the guidelines where practical (applying common sense where guidelines contradict - a more common occurrence than one might expect), we do not expect to support every component, nor every feature of every component, but rather to provide the building blocks to allow developers to create compelling user interfaces and experiences.
 
-If you wish to add support for a component or feature not highlighted here, please search for the relevant [GitHub Issue](https://github.com/mui-org/material-ui/issues), or create a new one to discuss the approach before submitting a pull request.
+If you wish to add support for a component or feature not highlighted here, please search for the relevant [GitHub Issue](https://github.com/Foso/material-ui/issues), or create a new one to discuss the approach before submitting a pull request.
 
 - App bars 
   - **[Top](https://material.io/design/components/app-bars-top.html) ✓**

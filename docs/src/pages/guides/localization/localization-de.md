@@ -57,7 +57,7 @@ const theme = createMuiTheme({
 | Ukrainian               | uk-UA               | `ukUA`     |
 | Vietnamese              | vi-VN               | `viVN`     |
 
-You can [find the source](https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/locale/index.js) in the GitHub repository.
+You can [find the source](https://github.com/Foso/material-ui/blob/master/packages/material-ui/src/locale/index.js) in the GitHub repository.
 
 To create your own translation, or to customise the English text, copy this file to your project, make any changes needed and import the locale from there. (Please do consider contributing new translations back to Material-UI by opening a pull request.)
 

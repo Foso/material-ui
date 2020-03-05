@@ -12,7 +12,7 @@ components: TextField
 
 ## @material-ui/pickers
 
-![stars](https://img.shields.io/github/stars/mui-org/material-ui-pickers.svg?style=social&label=Stars) ![npm下载](https://img.shields.io/npm/dm/@material-ui/pickers.svg)
+![stars](https://img.shields.io/github/stars/Foso/material-ui-pickers.svg?style=social&label=Stars) ![npm下载](https://img.shields.io/npm/dm/@material-ui/pickers.svg)
 
 [@ material-ui / pickers](https://material-ui-pickers.dev/) 提供日期选择器和时间选择器控件。
 

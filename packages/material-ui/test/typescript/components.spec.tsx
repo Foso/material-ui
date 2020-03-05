@@ -1030,7 +1030,7 @@ const LinkTest = () => {
 };
 
 const refTest = () => {
-  // for a detailed explanation of refs in react see https://github.com/mui-org/material-ui/pull/15199
+  // for a detailed explanation of refs in react see https://github.com/Foso/material-ui/pull/15199
   const genericRef = React.createRef<Element>();
   const divRef = React.createRef<HTMLDivElement>();
   const inputRef = React.createRef<HTMLInputElement>();

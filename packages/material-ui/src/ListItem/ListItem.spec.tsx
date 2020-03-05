@@ -3,7 +3,7 @@ import ListItem from '@material-ui/core/ListItem';
 
 // button: boolean
 function BooleanButtonTest() {
-  // https://github.com/mui-org/material-ui/issues/14971
+  // https://github.com/Foso/material-ui/issues/14971
 
   function EditableItemFail(props: { editable: boolean }) {
     const { editable } = props;

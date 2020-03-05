@@ -6,7 +6,7 @@ title: 9+ Free React Templates
 
 <p class="description">選擇一個免費的react樣版來幫助你建立你的app</p>
 
-模板可以与 [示例应用程序](https://github. com/mui-org/material-ui/tree/master/examples) 组合形成一个完整的启动程序。
+模板可以与 [示例应用程序](https://github. com/Foso/material-ui/tree/master/examples) 组合形成一个完整的启动程序。
 
 Sections of each layout are clearly defined either by comments or use of separate files, making it simple to extract parts of a page (such as a "hero unit", or footer, for example) for reuse in other pages. For multi-part examples, a table in the README at the linked source code location describes the purpose of each file.
 
