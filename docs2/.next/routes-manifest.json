@@ -1,0 +1,1 @@
+{"version":1,"redirects":[],"rewrites":[{"source":"/:lang(en|zh|ru|pt|es|fr|de|ja|aa)?/:rest","destination":"/:rest","regex":"^(?:\\/(en|zh|ru|pt|es|fr|de|ja|aa))?\\/([^\\/]+?)$","regexKeys":["lang","rest"]},{"source":"/api/:rest*","destination":"/api-docs/:rest*","regex":"^\\/api(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))?$","regexKeys":["rest"]}],"dynamicRoutes":[]}

@@ -1,0 +1,1 @@
+module.exports = "# Registro de cambios\n\n<p class=\"description\">Material-UI sigue el verionado semantico 2.0.0.</p>\n\nTodos los cambios notables están descritos en el archivo CHANGELOG.md."

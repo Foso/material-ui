@@ -1,0 +1,1 @@
+module.exports = "# 语言\n\n<p class=\"description\">Material-UI 的文档提供了以下几种语言的版本。</p>\n\n{{\"demo\": \"pages/discover-more/languages/Languages.js\", \"hideHeader\": true, \"bg\": true}}"

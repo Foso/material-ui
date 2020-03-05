@@ -1,0 +1,1 @@
+module.exports = "# Journal des modifications\n\n<p class=\"description\">Material-UI follows Semantic Versioning 2.0.0.</p>\n\nTous les changements notables sont décrits dans le fichier [CHANGELOG.md](https://github.com/Foso/material-ui/blob/master/CHANGELOG.md).\n"

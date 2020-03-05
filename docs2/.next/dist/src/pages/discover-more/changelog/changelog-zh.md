@@ -1,0 +1,1 @@
+module.exports = "# 更新日志\n\n<p class=\"description\">Material-UI遵循语义化版本2.0.0。</p>\n\n您可在 [CHANGELOG.md](https://github.com/Foso/material-ui/blob/master/CHANGELOG.md) 中找到所有重大变更的相关说明。\n"

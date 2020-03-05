@@ -1,0 +1,1 @@
+module.exports = "# Lenguajes\n\n<p class=\"description\">The Material-UI documentation is available in the following languages.</p>\n\n{{\"demo\": \"pages/discover-more/languages/Languages.js\", \"hideHeader\": true, \"bg\": true}}"

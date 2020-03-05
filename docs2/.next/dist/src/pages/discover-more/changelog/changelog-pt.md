@@ -1,0 +1,1 @@
+module.exports = "# Alterações\n\n<p class=\"description\">Material-UI segue a Semântica de controle de versão 2.0.0.</p>\n\nTodas as alterações notáveis são descritas no arquivo [CHANGELOG.md](https://github.com/Foso/material-ui/blob/master/CHANGELOG.md).\n"
